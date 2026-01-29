@@ -23,3 +23,9 @@ ORDER BY suma_powierzchni DESC;
 SELECT id_punktu, ISD, bląd_polozenia
 FROM punkty_graniczne
 WHERE ISD = 0 AND bląd_polozenia > 0.10;
+
+-- 5. Test zgodności ISD z danymi archiwalnymi (ZRD)
+-- Cel: Wykrycie punktów błędnie oznaczonych jako "ustalone" (SPD=1), mimo że ich źródło (ZRD) wskazuje na brak ustalenia.
+SELECT id_punktu, SPD, ZRD
+FROM punkty_graniczne
+WHERE SPD = 1 AND ZRD IN (2, 4, 7, 8, 9);
