@@ -22,3 +22,5 @@ Repozytorium zawiera zbiór skryptów SQL opracowanych w celu automatyzacji proc
 
 ## Dlaczego to repozytorium powstało?
 Jako Junior QA Engineer z silnym zapleczem inżynierskim, wierzę, że automatyzacja weryfikacji danych za pomocą zapytań SQL jest kluczem do eliminacji błędów w złożonych systemach informatycznych.
+
+Scenariusze testowe SQL zostały opracowane na podstawie:  Załącznik nr 5 do rozp. EGiB - Dopuszczalne wartości atrybutów punktów granicznych (PDF).
