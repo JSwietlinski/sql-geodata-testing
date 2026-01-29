@@ -1,2 +1,24 @@
-# sql-geodata-testing
-Skrypty SQL do automatycznej kontroli jakości i walidacji danych przestrzennych w bazach danych GIS.
+# SQL Geodata Testing & QA
+## Opis Projektu
+Repozytorium zawiera zbiór skryptów SQL opracowanych w celu automatyzacji procesów kontroli jakości (Quality Control) oraz walidacji danych w bazach danych przestrzennych (GIS). Projekt symuluje realne scenariusze testowe, z którymi mierzy się Tester Oprogramowania w branży geoinformatycznej oraz administracji publicznej.
+
+## Wykorzystane technologie
+
+**Język:** SQL.
+
+
+**Domena:** Systemy Informacji Przestrzennej (GIS), Ewidencja Gruntów i Budynków (EGiB).
+
+
+## Scenariusze Testowe (Test Cases)
+* Skrypty realizują następujące procesy weryfikacyjne:
+  1. **Walidacja integralności danych:** Sprawdzanie spójności między powierzchnią obliczeniową, a ewidencyjną działek (wykrywanie błędów topologicznych).
+
+
+  2. **Kontrola jakości atrybutów:** Weryfikacja precyzji pomiaru punktów granicznych zgodnie ze standardami technicznymi (analiza błędów położenia punktu granicznego).
+
+
+  3. **Testy kompletności:** Identyfikacja obiektów pozbawionych kluczowych relacji (np. działki bez przypisanych użytków lub klasoużytków).
+
+## Dlaczego to repozytorium powstało?
+Jako Junior QA Engineer z silnym zapleczem inżynierskim, wierzę, że automatyzacja weryfikacji danych za pomocą zapytań SQL jest kluczem do eliminacji błędów w złożonych systemach informatycznych.
